@@ -15,7 +15,15 @@ You could write some unit tests yourself, using the requirements to identify sui
 
 Alternatively, use the Approval tests provided in this repository. (Read more about that in the section "Text-based Approval Testing").
 
-The idea of the exercise is to do some deliberate practice, and improve your skills at designing test cases and refactoring. The idea is not to re-write the code from scratch, but rather to practice taking small steps, running the tests often, and incrementally improving the design. 
+The idea of the exercise is to do some deliberate practice, and improve your skills at designing test cases and refactoring. The idea is not to re-write the code from scratch, but rather to practice taking small steps, running the tests often, and incrementally improving the design.
+
+## Build and run
+
+To simplify run process I've added dockerfile to run everything in the container.  To start container just run next command:
+
+```
+ docker build -t gilded-rose . && docker run --rm gilded-rose 
+```
 
 ### Gilded Rose Requirements in other languages 
 
